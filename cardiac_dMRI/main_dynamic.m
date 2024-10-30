@@ -94,9 +94,13 @@ ntr = 1;
 
 results_folder = 'results/';
 training_image = '../data/cardiac_single_coil';
-t_samp = 1:17; tr_samp = 1:3;
-x_size = 1:152; y_size = 1:152;
-low_phase = 73:78;
+% t_samp = 1:17; tr_samp = 1:3;
+% x_size = 1:152; y_size = 1:152;
+
+t_samp = 1:2; tr_samp = 1:2;
+x_size = 1:180; y_size = 1:240; z_zize = 1:256;
+
+low_phase = 73:78; %?
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Imports
